@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/login.css">
+    <title>Login | Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="./img/logo.png" alt="Logo Boutique da Yasmin" />
+                </a>
+            </div>
+
+            <div class="links">
+            <a href="#">Entrar</a>
+            <a href="/index.html">Home</a>          
+            <a href="/contato.html">Contato</a>
+            <a href="/sobre-nos.html">Sobre nós</a>
+            </div>
+
+        </div>
+
+    </header>
+    
+    <div class="container">
+
+        <div class="all-login">
+
+            <h1> Já tem uma conta conosco?</h1>
+
+            <form action="">
+    
+                <div class="login">
+    
+                    <div class="login-content">
+    
+                        <div class="group">
+                            <label class="labels" for="email"> E-mail </label>
+                            <input class="text" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        </div>
+    
+                        <div class="group">
+                            <label class="labels" for="senha"> Senha </label>
+                            <input class="text" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                        </div>
+    
+                        <button class="btn-submit" type="submit"> Entrar </button>
+
+                        <p id="sou-novo" onclick="cadastro()">Sou novo aqui</p>
+    
+                    </div>
+    
+                </div>
+    
+            </form>
+
+        </div>
+
+        <div class="all-cadastro">
+
+            <h1> Cadastre-se em nosso site!</h1>
+
+            <form action="">
+    
+                <div class="cadastro">
+    
+                    <div class="cadastro-content">
+
+                        <div class="group">
+                            <label class="labels" for="nome"> Nome </label>
+                            <input class="text" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="group">
+                            <label class="labels" for="numero"> Número </label>
+                            <input class="text" type="text" name="numero" id="numero" placeholder="Digite seu número ">
+                        </div>
+    
+                        <div class="group">
+                            <label class="labels" for="email"> E-mail </label>
+                            <input class="text" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        </div>
+    
+                        <div class="group">
+                            <label class="labels" for="senha"> Senha </label>
+                            <input class="text" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                        </div>
+    
+                        <button class="btn-submit" type="submit"> Cadastrar </button>
+
+                        <p id="ja-tenho-conta" onclick="login()"> Já tenho uma conta </p>
+    
+                    </div>
+    
+                </div>
+    
+            </form>
+
+        </div>
+      
+
+    </div>
+
+    <footer>
+
+        <div class="image-footer">
+            <img src="./img/logo.png" alt="Logo da loja da Yasmin">
+        </div>
+
+        <div class="footer-content">
+
+            <div class="rigth">
+  
+              <div class="grupo">
+                <p>Boutique da Yasmim</p>
+                <p>Venha comprar na melhor <br> loja de Duque de Caxias!</p>
+              </div>
+  
+            </div>
+  
+            <div class="center">
+            <p>Localização da nossa loja:</p>
+            <p>Rua Brás Cubas, Lote 1, Quadra 26, Olavo Bilac</p>
+          </div>
+
+          <div class="left">
+            <p>Nossas redes sociais:</p>
+            <a href="https://www.facebook.com/yasmim.fraga.568">Facebook</a>
+            <a href="https://www.instagram.com/yasmimfragaboutique/">Instagram</a>
+            <a href="https://wa.me/+55021970243720">WhatsApp</a>
+          </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
